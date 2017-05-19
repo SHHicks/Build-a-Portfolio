@@ -1,0 +1,16 @@
+figcaption {
+  font-size: x-small;
+}
+
+p {
+  font-size: small;
+}
+
+.sidebar_spacer {
+  width: 100%;
+  height: 17%;
+}
+
+.small_link {
+  font-size: 6px;
+}

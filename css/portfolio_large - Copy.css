@@ -1,0 +1,164 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  color: grey;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  font-weight: normal;
+  color: #2d3c49;
+}
+
+p {
+  color: #2d3c49;
+}
+
+.container {
+  height: 625px; /* TODO - make work with relative height */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  width: 15%;
+  height: 100%;
+  text-align: center;
+}
+
+.sidebar_spacer {
+  width: 100%;
+  height: 12%;
+}
+
+.color_swatch_1 {
+  width: 100%;
+  padding-top: 100%;
+  background-color: #01b3e2;
+  margin-bottom: 15%;
+}
+
+.color_swatch_2 {
+  width: 100%;
+  padding-top: 100%;
+  background-color: #2d3c49;
+  margin-bottom: 15%;
+}
+
+.color_swatch_3 {
+  width: 100%;
+  padding-top: 100%;
+  background-color: #3061ff;
+  margin-bottom: 15%;
+}
+
+figure {
+  margin: 25%;
+}
+
+.main {
+  width: 85%;
+  height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.header_left {
+  width: 15%;
+  height: 100%;
+}
+
+.header_right {
+  width: 85%;
+  height: 100%;
+  text-align: right;
+  margin-right: 3%;
+  background-color: blue;
+}
+
+.line {
+  display: block;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-style: inset;
+  border-width: 1px;
+  border-color: #01b3e2;
+}
+
+.body {
+  width: 100%;
+  height: 43%;
+  background-image: url(../img/html_screen_large.png);
+}
+
+.featured_label {
+  width: 100%;
+  height: 4%;
+  color: #3061ff;
+  margin-top: 1em;
+}
+
+nav {
+  width: 100%;
+  height: 31%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 32%;
+  max-width: 33%;
+  height: 100%;
+  margin-left: 0.5%;
+  margin-right:0.5%;
+  text-align: center;
+}
+
+.project_1 {
+  width: 100%;
+  height: 50%;
+  background-image: url(../img/logs.png);
+}
+
+.project_2 {
+  width: 100%;
+  height: 50%;
+  background-image: url(../img/books.png);
+}
+
+.project_3 {
+  width: 100%;
+  height: 50%;
+  background-image: url(../img/neighborhood.png);
+}
+
+.small_link {
+  font-size: x-small;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}

@@ -1,0 +1,27 @@
+.container {
+  height: 800px; /* TODO - make work with relative height */
+}
+
+.body {
+  width: 100%;
+  height: 43%;
+  background-image: url(../img/html_screen_large.png);
+}
+
+.project_1 {
+  width: 100%;
+  height: 50%;
+  background-image: url(../img/logs_large.png);
+}
+
+.project_2 {
+  width: 100%;
+  height: 50%;
+  background-image: url(../img/books_large.png);
+}
+
+.project_3 {
+  width: 100%;
+  height: 50%;
+  background-image: url(../img/neighborhood_large.png);
+}
