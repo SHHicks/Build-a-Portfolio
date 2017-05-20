@@ -2,7 +2,7 @@
 
 ## Installation
 
-Copy 'portfolio.html' and directories 'css' and 'img' plus their contents
+Copy 'index.html' and directories 'css' and 'img' plus their contents
 
 ## Requirements
 
@@ -10,4 +10,4 @@ Web browser
 
 ## Command to Run 
 
-Open 'portfolio.html' in web browser
+Open 'index.html' in web browser

@@ -7,7 +7,28 @@ img {
   max-width: 100%;
 }
 
-h1, h2, h3, h4 {
+h1 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  font-weight: normal;
+  color: #2d3c49;
+}
+
+h2 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  font-weight: normal;
+  color: #2d3c49;
+}
+
+h3 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  font-weight: normal;
+  color: #2d3c49;
+}
+
+h4 {
   margin-top: 0.25em;
   margin-bottom: 0.25em;
   font-weight: normal;
@@ -16,7 +37,7 @@ h1, h2, h3, h4 {
 
 p {
   color: #2d3c49;
-  word-wrap: break-word;
+  word-wrap: break-word; /* TODO - better break/wrap of github URL's at smallest screen size */
 }
 
 .container {
@@ -26,59 +47,18 @@ p {
   flex-wrap: wrap;
 }
 
-.sidebar {
-  width: 15%;
-  height: 100%;
-  text-align: center;
-}
-
-.sidebar_spacer {
-  width: 100%;
-  height: 12%;
-}
-
-.color_swatch_1 {
-  width: 100%;
-  padding-top: 100%;
-  background-color: #01b3e2;
-  margin-bottom: 15%;
-}
-
-.color_swatch_2 {
-  width: 100%;
-  padding-top: 100%;
-  background-color: #2d3c49;
-  margin-bottom: 15%;
-}
-
-.color_swatch_3 {
-  width: 100%;
-  padding-top: 100%;
-  background-color: #3061ff;
-  margin-bottom: 15%;
-}
-
-figure {
-  margin: 25%;
-}
-
-.main {
-  width: 85%;
-  height: 100%;
-}
-
 header {
-    width: 100%;
-    height: 15%;
-    display: flex;
+  width: 100%;
+  height: 15%;
+  display: flex;
 }
 
-.header_left {
+.header-left {
   width: 15%;
   height: 100%;
 }
 
-.header_right {
+.header-right {
   width: 85%;
   height: 100%;
   text-align: right;
@@ -86,6 +66,7 @@ header {
 }
 
 .line {
+  width: 100%;
   display: block;
   margin-left: 1em;
   margin-right: 1em;
@@ -102,14 +83,14 @@ header {
   background-image: url(../img/html_screen.png);
 }
 
-.featured_label {
+.featured-label {
   width: 100%;
   height: 4%;
   color: #3061ff;
   margin-top: 1em;
 }
 
-nav {
+main {
   width: 100%;
   height: 31%;
   display: flex;
@@ -125,25 +106,25 @@ nav {
   text-align: center;
 }
 
-.project_1 {
+.project-1 {
   width: 100%;
   height: 50%;
   background-image: url(../img/logs.png);
 }
 
-.project_2 {
+.project-2 {
   width: 100%;
   height: 50%;
   background-image: url(../img/books.png);
 }
 
-.project_3 {
+.project-3 {
   width: 100%;
   height: 50%;
   background-image: url(../img/neighborhood.png);
 }
 
-.small_link {
+.small-link {
   font-size: x-small;
 }
 
