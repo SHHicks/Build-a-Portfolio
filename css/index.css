@@ -1,0 +1,260 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  color: grey;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  font-weight: normal;
+  color: #2d3c49;
+}
+
+h2 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  font-weight: normal;
+  color: #2d3c49;
+}
+
+h3 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  font-weight: normal;
+  color: #2d3c49;
+}
+
+h4 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  font-weight: normal;
+  color: #2d3c49;
+}
+
+p {
+  color: #2d3c49;
+  word-wrap: break-word; /* TODO - better break/wrap of github URL's at smallest screen size */
+}
+
+/* very small screen */
+@ media screen and (max-width: 549px) {
+  p {
+    font-size: x-small;
+  }
+}
+
+/* small screen */
+@media screen and (min-width: 550px) and (max-width: 700px) {
+  p {
+    font-size: small;
+  }
+}
+
+.container {
+  height: 625px; /* TODO - make work with relative height */
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* large screen */
+@media screen and (min-width: 800px) {
+  .container {
+    height: 800px; /* TODO - make work with relative height */
+  }
+}
+
+header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+}
+
+.header-left {
+  width: 15%;
+  height: 100%;
+}
+
+.header-right {
+  width: 85%;
+  height: 100%;
+  text-align: right;
+  margin-right: 3%;
+}
+
+.line {
+  width: 100%;
+  display: block;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-style: inset;
+  border-width: 1px;
+  border-color: #01b3e2;
+}
+
+.body {
+  width: 100%;
+  height: 43%;
+  background-image: url(../img/html_screen.png);
+}
+
+/* large screen */
+@media screen and (min-width: 800px) {
+  .body {
+    width: 100%;
+    height: 43%;
+    background-image: url(../img/html_screen_large.png);
+  }
+}
+
+.featured-label {
+  width: 100%;
+  height: 4%;
+  color: #3061ff;
+  margin-top: 1em;
+}
+
+main {
+  width: 100%;
+  height: 31%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 32%;
+  max-width: 33%;
+  height: 100%;
+  margin-left: 0.5%;
+  margin-right:0.5%;
+  text-align: center;
+}
+
+/* very small screen */
+@media screen and (max-width: 549px) {
+  .project {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* small screen */
+@media screen and (min-width: 550px) and (max-width: 700px) {
+  .project {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.project-1 {
+  width: 100%;
+  height: 50%;
+  background-image: url(../img/logs.png);
+}
+
+/* very small screen */
+@media screen and (max-width: 549px) {
+  .project-1 {
+    background-image: url(../img/logs_large.png);
+  }
+}
+
+/* small screen */
+@media screen and (min-width: 550px) and (max-width: 700px) {
+  .project-1 {
+    background-image: url(../img/logs_large.png);
+  }
+}
+
+/* large screen */
+@media screen and (min-width: 800px) {
+  .project-1 {
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/logs_large.png);
+  }
+}
+
+.project-2 {
+  width: 100%;
+  height: 50%;
+  background-image: url(../img/books.png);
+}
+
+/* very small screen */
+@media screen and (max-width: 549px) {
+  .project-2 {
+    background-image: url(../img/books_large.png);
+  }
+}
+
+/* small screen */
+@media screen and (min-width: 550px) and (max-width: 700px) {
+  .project-2 {
+    background-image: url(../img/books_large.png);
+  }
+}
+
+/* large screen */
+@media screen and (min-width: 800px) {
+  .project-2 {
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/books_large.png);
+  }
+}
+
+.project-3 {
+  width: 100%;
+  height: 50%;
+  background-image: url(../img/neighborhood.png);
+}
+
+/* very small screen */
+@media screen and (max-width: 549px) {
+  .project-3 {
+    background-image: url(../img/neighborhood_large.png);
+  }
+}
+
+/* small screen */
+@media screen and (min-width: 550px) and (max-width: 700px) {
+  .project-3 {
+    background-image: url(../img/neighborhood_large.png);
+  }
+}
+
+/* large screen */
+@media screen and (min-width: 800px) {
+  .project-3 {
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/neighborhood_large.png);
+  }
+}
+
+.small-link {
+  font-size: x-small;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
